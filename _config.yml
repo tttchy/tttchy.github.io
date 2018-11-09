@@ -1,0 +1,79 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: "Tina it's me"
+brief-intro: "Between the idea and the reality, between the motion and the act, Falls the Shadow,For Thine is the Kingdom"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://tttchy.github.io" # the base hostname & protocol for your site
+
+permalink: /:year/:month/:day/:title/
+
+# other links
+twitter_username: #gaohaoyang126
+facebook_username: #gaohaoyang.water
+github_username:  tttchy
+email: 1564658477@qq.com
+weibo_username: 
+zhihu_username: 
+linkedIn_username: tttchy
+dribbble_username:
+
+description_footer: 来自Tina it's me
+
+# comments
+# two ways to comment, only choose one, and use your own short name
+# 两种评论插件，选一个就好了，使用自己的 short_name
+# duoshuo_shortname: xyao #hygblog
+# disqus_shortname: #gaohaoyang
+# using Gitalk
+gitalk:
+  enable: true    #是否开启Gitalk评论
+  clientID: 52bbb620d9680fd85254                            #生成的clientID
+  clientSecret: d92cec378527800b0816d1bdd26dc71eb5dd0ccd    #生成的clientSecret
+  repo: tttchy.github.io    #仓库名称
+  owner: tttchy    #github用户名
+  admin: tttchy
+  distractionFreeMode: true #是否启用类似FB的阴影遮罩
+
+# statistic analysis 统计代码
+# 百度统计 id，将统计代码替换为自己的百度统计id，即
+# hm.src = "//hm.baidu.com/hm.js?xxxxxxxxxxxx";
+# xxxxx字符串
+# baidu_tongji_id: 1cc1fc4b4b456bf7c99ce80aec5bf009
+google_analytics_id: UA-126298955-1 # google 分析追踪id
+ga_domain: auto
+
+friends: [
+    {
+        title: "Linkedin - tttchy",
+        href: "https://www.linkedin.com/in/%E4%BF%A1-%E5%A7%9A-947492167/"
+    }
+]
+
+# Build settings
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# port
+# port: 1234
+
+# url
+category_dir: category/
+tag_dir: tag/
+
+# excerpt
+excerpt_separator: "\n\n\n\n"
+
+# paginate
+plugins: [jekyll-paginate]
+paginate: 6  #每页显示6篇文章
+port: 4001   #4001是jekyll启动端口号
+
