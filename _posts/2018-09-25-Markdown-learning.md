@@ -6,9 +6,9 @@ date:       2018-09-25
 author:     Xin YAO
 catalog: true
 tags:
-    - Markdown
+    - markdown
 ---
-<!-- MarkdownTOC -->
+#<!-- MarkdownTOC -->
 
 - [前言](#%E5%89%8D%E8%A8%80)
     - [Tools](#tools)
