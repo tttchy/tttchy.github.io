@@ -2,23 +2,6 @@
 layout: default
 ---
 
-<div id="gitmentContainer"></div>
-<link rel="stylesheet" href="https://tttchy.github.io/gitment/style/default.css">
-<script src="https://tttchy.github.io/gitment/dist/gitment.browser.js"></script>
-<script>
-    var gitment = new Gitment({
-        owner: 'tttchy',
-        repo: 'comments',
-        oauth: {
-            client_id: '671437fd1b7c3f081a12',
-            client_secret: '208a2a30425bc92a31e17393cfa0f53c1396cfc4',
-        },
-    }),
-        gitment.render('gitmentContainer');
-</script>
-
-
-
 <div class="page clearfix" post>
     <div class="left">
         <h1>{{page.title}}</h1>
