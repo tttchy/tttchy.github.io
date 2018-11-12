@@ -33,11 +33,11 @@ description_footer: So many dreams are waiting to be realized
 # using Gitalk
 gitalk:
   enable: true    #是否开启Gitalk评论
-  clientID: '671437fd1b7c3f081a12'                           #生成的clientID
-  clientSecret: '208a2a30425bc92a31e17393cfa0f53c1396cfc4'    #生成的clientSecret
-  repo: 'tttchy.github.io'   #仓库名称
-  owner: 'tttchy'    #github用户名
-  admin: 'tttchy'
+  clientID: 671437fd1b7c3f081a12                           #生成的clientID
+  clientSecret: 208a2a30425bc92a31e17393cfa0f53c1396cfc4    #生成的clientSecret
+  repo: tttchy.github.io   #仓库名称
+  owner: tttchy   #github用户名
+  admin: tttchy
   distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
 # statistic analysis 统计代码
